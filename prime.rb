@@ -1,9 +1,8 @@
 def prime?(int)
   for num in 2..int
-    if int % num == 0 #if the int is divisible by any number
+    if int % num == 0
       false
     end
   end
   true 
 end
-prime?(5)
