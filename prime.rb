@@ -3,4 +3,5 @@ def prime?(int)
     false 
     elsif (2...int).none? {|i| int % i == 0}
   end
+  true 
 end
