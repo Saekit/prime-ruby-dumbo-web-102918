@@ -1,3 +1,6 @@
 def prime?(int)
-  (2...int).none? {|i| int % i == 0}
+  if int < 2 
+    false 
+    elsif (2...int).none? {|i| int % i == 0}
+  end
 end
