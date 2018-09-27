@@ -5,4 +5,5 @@ def prime?(int)
   #   end
   # end
   # true
+  2...int
 end
