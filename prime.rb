@@ -6,3 +6,4 @@ def prime?(int)
   end
   true 
 end
+prime?(5)
