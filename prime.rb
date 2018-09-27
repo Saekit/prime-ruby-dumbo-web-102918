@@ -5,5 +5,5 @@ def prime?(int)
   #   end
   # end
   # true
-  (2...int).none? {|i| integer
+  (2...int).none? {|i| integer % 2 == 0}
 end
